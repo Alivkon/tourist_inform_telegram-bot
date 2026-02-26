@@ -10,7 +10,7 @@ from texts_msg import msg_11, msg_15, msg_20, msg_00
 from weather_vibrosi import sagryaz,pogoda
 import requests
 
-bot = Bot(token="6428551459:AAFiF11jto9T65dlf8Y5MtkVZjzksVoX5Ko")  # key Kapybar
+bot = Bot(token="telegram-key Kapybar")  # key Kapybar
 from key import API_TOKEN
 
 # bot = Bot(token=API_TOKEN)
