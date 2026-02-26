@@ -1,1 +1,1 @@
-API_TOKEN = '6308962540:AAHMVLxYaIGE0wFl_78'
+API_TOKEN = 'my-api-token'
