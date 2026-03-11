@@ -2,7 +2,7 @@
 import datetime
 import requests
 
-response = requests.get(f"https://api.waqi.info/feed/@1849/?token=d8a31459c1dea13dcc0c642b1e086e5745e6305e")
+response = requests.get(f"https://api.waqi.info/feed/@1849/?token=api-token")
 data = response.json()
 #print("ответ сервера = \n", data)
 aqi = data ["data"]["aqi"]
@@ -26,7 +26,7 @@ sagryaz = (f"⚠️ Качество воздуха - {index_aqi} " )
 
 #print(sagryaz)
 
-response = requests.get(f"http://api.openweathermap.org/data/2.5/weather?q=pattaya&lang=ru&units=metric&appid=6c5eb51da0bf280cc725a25e6334d5f5")
+response = requests.get(f"http://api.openweathermap.org/data/2.5/weather?q=pattaya&lang=ru&units=metric&appid=api-token")
 data = response.json()
 #print(data)
 city = data["name"]
