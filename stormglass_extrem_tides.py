@@ -17,7 +17,7 @@ try:
             'end': end.to('UTC').timestamp(),
         },
         headers={
-              'Authorization': '99f0fdea-52db-11ee-8b7f-0242ac130002-99f0fea8-52db-11ee-8b7f-0242ac130002'
+              'Authorization': 'api-token'
 
         }
     )
