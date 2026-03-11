@@ -4,7 +4,7 @@ from sys import path
 from weather_vibrosi import sagryaz, pogoda
 # from os import path
 
-bot = Bot(token="6428551459:AAFiF11jto9T65dlf8Y5MtkVZjzksVoX5Ko")  # key Kapybar
+bot = Bot(token="api-token")  # key Kapybar
 from key import API_TOKEN
 from stormglass_extrem_tides import prilivs
 # bot = Bot(token=API_TOKEN)
