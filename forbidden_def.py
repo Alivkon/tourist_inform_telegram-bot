@@ -5,7 +5,7 @@ from aiogram.utils import executor
 import logging
 
 from forbidden_words import forb_Words
-bot = Bot(token="6428551459:AAFiF11jto9T65dlf8Y5MtkVZjzksVoX5Ko") #key Kapybar
+bot = Bot(token="api-token") #key Kapybar
 from key import API_TOKEN
 #bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
